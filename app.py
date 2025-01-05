@@ -17,7 +17,6 @@ def home():
 def blog():
     return "Check out my latest blog post at example.com/blog."
 
-
 @app.route("/pricing")
 def pricing():
     return "Our pricing for web development starts at $70 per hour."
